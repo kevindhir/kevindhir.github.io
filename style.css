@@ -4,8 +4,40 @@
   background-color: lightblue;
 }
 
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
 h1,h2,h3,h4,h5,h6{
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: white;
+}
+
+.navitem  {
+    float: left;
+}
+
+.navitem a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navitem a:hover {
+    background-color: black;
+    color: white;
+}
+
 </style>
